@@ -1,10 +1,10 @@
 .PHONY: all build dep
 
 build:
-	export GOPATH=$(shell pwd) && /usr/local/go/bin/go build src/main.go
+	export GOPATH=$(shell pwd) && go build src/main.go
 
 run:
-	export GOPATH=$(shell pwd) && /usr/local/go/bin/go run src/main.go
+	export GOPATH=$(shell pwd) && go run src/main.go
 
 deps:
 	export GOPATH=$(shell pwd) && go get -v github.com/veandco/go-sdl2/sdl
