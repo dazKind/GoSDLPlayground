@@ -9,7 +9,7 @@ import (
 )
 
 const (
-    winTitle           = "OpenGL Shader"
+    winTitle           = "mib's go-playground"
     winWidth           = 640
     winHeight          = 480
     vertexShaderSource = `
